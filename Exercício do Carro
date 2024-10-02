@@ -1,0 +1,15 @@
+nome = input("Qual seu nome?")
+nomemeio = input ("Qual seu nome do meio?")
+sobrenome = input("Qual seu sobrenome?")
+carro = input("Qual o modelo do seu carro?")
+cor = input("Qual a cor do seu carro?")
+print(nome,nomemeio,sobrenome)
+print(carro)
+print(cor)
+print("Obrigado por responder!")
+lavagemhoje = input("Gostaria que seu carro fosse lavado hoje?")
+# À partir daqui, foi um teste meu
+if lavagemhoje.lower() == "sim":
+    print("Ótimo! Seu carro será lavado hoje.")
+else:
+    print("Tudo bem! Vamos agendar para outro dia?")
