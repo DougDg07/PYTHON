@@ -8,6 +8,10 @@ elif (rodas == 2):
     print("O veiculo é uma moto ou bicicleta")
 elif (rodas == 1):
     print("É a merda de um monociclo")
+elif (rodas == 6):
+    print("É um busão")
+elif (rodas >= 8 and rodas <= 20):
+    print("É um caminhão")
 else:
     print("Não foi encontrado um veiculo que corresponde ao número de rodas!")
    
