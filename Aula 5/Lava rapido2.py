@@ -16,7 +16,7 @@ else:
     exit()
 
 # Perguntar se o cliente quer o pretinho
-pretinho = input("Deseja adicionar o pretinho por mais R$5,00? (s/n): ").strip().lower()
+pretinho = input("Deseja adicionar o pretinho por mais R$5,00? (s/n): ").lower()
 
 if pretinho == "s":
     valor += 5.00
@@ -27,4 +27,4 @@ else:
 # Retornar o valor total
 print(f"Serviço: {tipo_servico}")
 print(f"Valor total: R${valor:.2f}")
-print(f"Valor total: R${valor:.2f}")
+
