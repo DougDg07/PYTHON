@@ -10,16 +10,17 @@ pretinho = 5.00
 
 
 if(servico == 1):
-    lavagemCompleta = 50.00
+    lavagemCompleta = 50
     print(f"Você selecionou a Lavagem Completa \n")
 elif(servico == 2):
-      lavagemBásica = 35.00
+      lavagemBásica = 35
       print(f"Você selecionou a Lavagem Básica \n")
 else:    
-    print("Opção invalida")
+    print("Opção invalida, por favor escolha uma opção válida!")
 
-pretinho = input(f"Gostaria de adicionar o pretinho por mais R$ 5,00?")
-if(pretinho == 1):
-     print("Perfeito! Iremos aplicar o pretinho!")
-     lavagemCompleta += pretinho
+pretinho = input(f"Gostaria de adicionar o pretinho por mais R$ 5,00? (Sim ou Não)").lower
+if(pretinho == "sim"):
+     valortotal += 5
+     print("O serviço de {lavagemCompleta} será !")
+     
 

@@ -22,8 +22,8 @@ if(EscolhaLanche == 1):
         else:
             print(f"Seu pedido é {item1} + {item3},  totalizando R$20,00")
     else:
-        print(f"Seu pedido é {item1},  totalizando R$10,00")
-elif(EscolhaLanche == 2):
+        print(f"Seu pedido é {item1},  totalizando R10,00")
+#elif(EscolhaLanche == 2):$1
     #completar o codigo
-elif(EscolhaLanche == 3):
+#elif(EscolhaLanche == 3):
     #completar o codigo
