@@ -27,3 +27,4 @@ else:
 # Retornar o valor total
 print(f"Serviço: {tipo_servico}")
 print(f"Valor total: R${valor:.2f}")
+print(f"Valor total: R${valor:.2f}")
