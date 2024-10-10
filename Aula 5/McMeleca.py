@@ -11,16 +11,16 @@ if EscolhaLanche == 1:
     
     if adicionar == 2:
         print(f"Você escolheu {item1} e {item2}")
-        oferecercombo = input("Gostaria de adicionar o refrigerante por mais R$2,00? (sim/não) ").lower()
-        if oferecercombo == "sim":
+        oferecercombo = input("Gostaria de adicionar o refrigerante por mais R$2,00? (s/n) ").lower()
+        if oferecercombo == "s":
             print(f"Seu pedido é {item1} + {item2} + {item3}, totalizando R$22,00")
         else:
             print(f"Seu pedido é {item1} + {item2}, totalizando R$20,00")
     
     elif adicionar == 3:
         print(f"Você escolheu {item1} e {item3}")
-        oferecercombo = input("Gostaria de adicionar a batata frita por mais R$2,00? (sim/não) ").lower()
-        if oferecercombo == "sim":
+        oferecercombo = input("Gostaria de adicionar a batata frita por mais R$2,00? (s/n) ").lower()
+        if oferecercombo == "s":
             print(f"Seu pedido é {item1} + {item2} + {item3}, totalizando R$22,00")
         else:
             print(f"Seu pedido é {item1} + {item3}, totalizando R$20,00")
@@ -35,16 +35,16 @@ elif EscolhaLanche == 2:
     
     if adicionar == 1:
         print(f"Você escolheu {item2} e {item1}")
-        oferecercombo = input("Gostaria de adicionar o refrigerante por mais R$2,00? (sim/não) ").lower()
-        if oferecercombo == "sim":
+        oferecercombo = input("Gostaria de adicionar o refrigerante por mais R$2,00? (s/n) ").lower()
+        if oferecercombo == "s":
             print(f"Seu pedido é {item1} + {item2} + {item3}, totalizando R$22,00")
         else:
             print(f"Seu pedido é {item1} + {item2}, totalizando R$20,00")
     
     elif adicionar == 3:
         print(f"Você escolheu {item2} e {item3}")
-        oferecercombo = input("Gostaria de adicionar o hamburguer por mais R$2,00? (sim/não) ").lower()
-        if oferecercombo == "sim":
+        oferecercombo = input("Gostaria de adicionar o hamburguer por mais R$2,00? (s/n) ").lower()
+        if oferecercombo == "s":
             print(f"Seu pedido é {item1} + {item2} + {item3}, totalizando R$22,00")
         else:
             print(f"Seu pedido é {item2} + {item3}, totalizando R$20,00")
@@ -58,16 +58,16 @@ elif EscolhaLanche == 3:
     
     if adicionar == 1:
         print(f"Você escolheu {item3} e {item1}")
-        oferecercombo = input("Gostaria de adicionar a batata frita por mais R$2,00? (sim/não) ").lower()
-        if oferecercombo == "sim":
+        oferecercombo = input("Gostaria de adicionar a batata frita por mais R$2,00? (s/n) ").lower()
+        if oferecercombo == "s":
             print(f"Seu pedido é {item1} + {item2} + {item3}, totalizando R$22,00")
         else:
             print(f"Seu pedido é {item1} + {item3}, totalizando R$20,00")
     
     elif adicionar == 2:
         print(f"Você escolheu {item3} e {item2}")
-        oferecercombo = input("Gostaria de adicionar o hamburguer por mais R$2,00? (sim/não) ").lower()
-        if oferecercombo == "sim":
+        oferecercombo = input("Gostaria de adicionar o hamburguer por mais R$2,00? (s/n) ").lower()
+        if oferecercombo == "s":
             print(f"Seu pedido é {item1} + {item2} + {item3}, totalizando R$22,00")
         else:
             print(f"Seu pedido é {item2} + {item3}, totalizando R$20,00")
