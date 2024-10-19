@@ -23,7 +23,7 @@ while True:
     else:
         print("Opção inválida.")
 
-
+while True:
     numero_secreto = random.randint(1, 200)
 
     print("\nBem-vindo ao Jogo do Palpite!")
