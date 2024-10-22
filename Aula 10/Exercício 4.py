@@ -5,10 +5,10 @@
 poderes = ["Choque do Trovão", "Calda de Ferro", "Ataque Rápido", "Esquiva"]
 print("Poderes iniciais do Pikachu:", poderes)
 
-poderes.append(input(f"Adicione um novo poder: {poderes}")).upper()
+poderes.append(input(f"Adicione um novo poder: {poderes}"))
 print("Lista  de Poderes após adicionar:", poderes)
 
-poderes.remove(input(f"Remova um novo poder:{poderes}")).upper()
+poderes.remove(input(f"Remova um novo poder:{poderes}"))
 print("Lista  de Poderes após remover:", poderes)
 
 print("Número de Poderes na lista:", len(poderes))
